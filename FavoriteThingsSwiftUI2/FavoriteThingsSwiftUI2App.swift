@@ -15,7 +15,7 @@ struct FavoriteThingsSwiftUI2App: App {
             
             NavigationView {
             
-            ContentView()
+            ContentViewReal()
             
             }
         }

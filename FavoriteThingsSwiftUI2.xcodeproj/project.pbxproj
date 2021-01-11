@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CB0634D525ACC3C700E49F82 /* booksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0634D425ACC3C700E49F82 /* booksView.swift */; };
-		CB0634DA25ACC45300E49F82 /* dogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0634D925ACC45300E49F82 /* dogView.swift */; };
+		CB0634DA25ACC45300E49F82 /* ThingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0634D925ACC45300E49F82 /* ThingDetailView.swift */; };
 		CB0634DF25ACC71500E49F82 /* ContentViewReal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0634DE25ACC71500E49F82 /* ContentViewReal.swift */; };
+		CB0634EA25ACDEA600E49F82 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0634E925ACDEA600E49F82 /* Thing.swift */; };
+		CB0634F225ACE06300E49F82 /* Things.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0634F125ACE06300E49F82 /* Things.swift */; };
 		CB50E7A925A8EA480022DB99 /* FavoriteThingsSwiftUI2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50E7A825A8EA480022DB99 /* FavoriteThingsSwiftUI2App.swift */; };
 		CB50E7AB25A8EA490022DB99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50E7AA25A8EA490022DB99 /* ContentView.swift */; };
 		CB50E7AD25A8EA4D0022DB99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB50E7AC25A8EA4D0022DB99 /* Assets.xcassets */; };
@@ -37,8 +39,10 @@
 
 /* Begin PBXFileReference section */
 		CB0634D425ACC3C700E49F82 /* booksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = booksView.swift; sourceTree = "<group>"; };
-		CB0634D925ACC45300E49F82 /* dogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogView.swift; sourceTree = "<group>"; };
+		CB0634D925ACC45300E49F82 /* ThingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetailView.swift; sourceTree = "<group>"; };
 		CB0634DE25ACC71500E49F82 /* ContentViewReal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewReal.swift; sourceTree = "<group>"; };
+		CB0634E925ACDEA600E49F82 /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		CB0634F125ACE06300E49F82 /* Things.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things.swift; sourceTree = "<group>"; };
 		CB50E7A525A8EA480022DB99 /* FavoriteThingsSwiftUI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteThingsSwiftUI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB50E7A825A8EA480022DB99 /* FavoriteThingsSwiftUI2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteThingsSwiftUI2App.swift; sourceTree = "<group>"; };
 		CB50E7AA25A8EA490022DB99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,12 +107,14 @@
 			children = (
 				CB50E7A825A8EA480022DB99 /* FavoriteThingsSwiftUI2App.swift */,
 				CB0634DE25ACC71500E49F82 /* ContentViewReal.swift */,
-				CB0634D925ACC45300E49F82 /* dogView.swift */,
-				CB0634D425ACC3C700E49F82 /* booksView.swift */,
-				CB50E7AA25A8EA490022DB99 /* ContentView.swift */,
 				CB50E7AC25A8EA4D0022DB99 /* Assets.xcassets */,
 				CB50E7B125A8EA4D0022DB99 /* Info.plist */,
+				CB0634D925ACC45300E49F82 /* ThingDetailView.swift */,
+				CB0634D425ACC3C700E49F82 /* booksView.swift */,
+				CB50E7AA25A8EA490022DB99 /* ContentView.swift */,
 				CB50E7AE25A8EA4D0022DB99 /* Preview Content */,
+				CB0634E925ACDEA600E49F82 /* Thing.swift */,
+				CB0634F125ACE06300E49F82 /* Things.swift */,
 			);
 			path = FavoriteThingsSwiftUI2;
 			sourceTree = "<group>";
@@ -269,9 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB50E7AB25A8EA490022DB99 /* ContentView.swift in Sources */,
-				CB0634DA25ACC45300E49F82 /* dogView.swift in Sources */,
+				CB0634DA25ACC45300E49F82 /* ThingDetailView.swift in Sources */,
 				CB0634D525ACC3C700E49F82 /* booksView.swift in Sources */,
 				CB0634DF25ACC71500E49F82 /* ContentViewReal.swift in Sources */,
+				CB0634EA25ACDEA600E49F82 /* Thing.swift in Sources */,
+				CB0634F225ACE06300E49F82 /* Things.swift in Sources */,
 				CB50E7A925A8EA480022DB99 /* FavoriteThingsSwiftUI2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
