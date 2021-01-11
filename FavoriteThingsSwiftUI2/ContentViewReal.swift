@@ -15,6 +15,7 @@ struct ContentViewReal: View {
             NavigationLink("Dog", destination: dogView())
         }
         .navigationTitle("Favorite Things")
+        
     }
 }
 
