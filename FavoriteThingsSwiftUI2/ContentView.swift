@@ -21,12 +21,17 @@ struct ContentView: View {
             
             Spacer()
         }
+        .navigationTitle("IceCream")
     }
         
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NavigationView {
+            
+            ContentView()
+        }
+       
     }
 }
