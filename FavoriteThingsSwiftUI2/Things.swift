@@ -8,7 +8,7 @@
 import Foundation
 // A class does not automaticaly generate an initializer
 // We can do this manualy by putting cursor inside of the class, choosing Editor, Refactor and choosing Generate Memberwise Initializer.
-class Things {
+struct Things {
     
     //Properties
     var list: [Thing] = []
@@ -30,6 +30,8 @@ class Things {
         list.append(Thing(title: "Engineering", imageName: "Engineering", description: "Engineering is one of my favourite things and I love doing it."))
         
         list.append(Thing(title: "Sleeping", imageName: "Bed", description: "I love to sleep and be in bed, it's warm and nice."))
+        
+        list.append(Thing(title: "Tea", imageName: "Tea", description: "Tea is a great source of caffine in the morning and tastes amazing."))
         
     }
         
